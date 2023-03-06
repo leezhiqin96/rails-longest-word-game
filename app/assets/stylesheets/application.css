@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+.letterbox-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ .letterbox {
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+ }
+
+ .letter {
+  list-style: none;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: lightblue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+ }
